@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/probando",
+      "handler": "probando.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/probando",
+      "handler": "probando.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/probando",
+      "handler": "probando.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
