@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/iguana",
+      "handler": "iguana.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/iguana",
+      "handler": "iguana.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/iguana",
+      "handler": "iguana.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
