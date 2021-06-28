@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cambio",
+      "handler": "cambio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cambio",
+      "handler": "cambio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cambio",
+      "handler": "cambio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

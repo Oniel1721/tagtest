@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "cambios",
+  "info": {
+    "name": "cambio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cambiazo": {
+      "type": "string"
+    }
+  }
+}
